@@ -1,0 +1,68 @@
+name: "政策提案"
+description: "新しい政策を提案する"
+title: "[提案] "
+labels: ["検討中"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        政策提案テンプレートです。できる範囲で記入してください。
+        すべての項目を埋める必要はありません。
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "政策分野"
+      description: "最も近い分野を選んでください"
+      options:
+        - "経済・財政"
+        - "教育・子育て"
+        - "医療・福祉"
+        - "デジタル・行政改革"
+        - "その他"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "解決したい課題"
+      description: "現状のどのような問題を解決したいですか？"
+      placeholder: "例：待機児童が多く、共働き家庭が保育園を見つけられない"
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: "提案内容"
+      description: "具体的にどのような政策を提案しますか？"
+      placeholder: "例：保育士の給与を月額3万円引き上げ、保育園の新設補助金を拡充する"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-effect
+    attributes:
+      label: "期待される効果"
+      description: "この政策が実現すると、どのような改善が見込めますか？"
+      placeholder: "例：保育士の確保が進み、待機児童の解消が期待できる"
+    validations:
+      required: false
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: "参考情報・データ"
+      description: "根拠となるデータ、記事、事例などがあれば記載してください"
+      placeholder: "例：厚労省の統計によると待機児童数は○○人（2025年）"
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: "補足事項"
+      description: "その他、補足したいことがあれば記載してください"
+    validations:
+      required: false

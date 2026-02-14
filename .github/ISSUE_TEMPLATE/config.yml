@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "Discord で相談する"
+    url: https://discord.gg/placeholder
+    about: "提案の前にアイデアを相談したい場合はDiscordへ"
+  - name: "Discussions でアイデアを共有"
+    url: https://github.com/kkhassou/chuudou-kaikaku-seisaku/discussions
+    about: "まだ具体的な提案になっていないアイデアはこちらへ"
