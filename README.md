@@ -22,7 +22,7 @@
 
 ### 3. Discordで話す
 
-- [Discord サーバーに参加する](#)（リンクは後日掲載）
+- [Discord サーバーに参加する](https://discord.gg/3zGugJHNX5)
 - リアルタイムで政策について話し合えます
 - GitHubの操作がわからない場合もDiscordでサポートします
 
