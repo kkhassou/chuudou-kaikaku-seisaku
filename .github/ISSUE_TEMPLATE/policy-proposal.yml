@@ -19,6 +19,7 @@ body:
         - "教育・子育て"
         - "医療・福祉"
         - "デジタル・行政改革"
+        - "党内運営"
         - "その他"
     validations:
       required: true

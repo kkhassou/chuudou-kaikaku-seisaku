@@ -34,6 +34,7 @@
 | [教育・子育て](proposals/education/) | 学校教育、子育て支援など |
 | [医療・福祉](proposals/healthcare/) | 医療制度、社会保障など |
 | [デジタル・行政改革](proposals/digital/) | DX推進、行政手続きの簡素化など |
+| [党内運営](proposals/party-operations/) | 組織運営、活動方針、広報戦略など |
 | [その他](proposals/other/) | 上記に当てはまらない政策 |
 
 ## 提案から実現までの流れ
